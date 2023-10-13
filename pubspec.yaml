@@ -1,0 +1,65 @@
+name: ZdroweRasowe
+description: Zdrowe Rasowe
+publish_to: 'none'
+version: 1.0.0+3
+
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  carousel_slider: ^4.2.1
+  flutter_launcher_icons: ^0.13.1
+  url_launcher: ^6.1.14
+  get: ^4.6.6
+  flutter_spinkit: ^5.2.0
+  flutter_native_splash: ^2.3.2
+  font_awesome_flutter: ^10.5.0
+  dio: ^5.3.2
+  http: ^0.13.6
+  new_version_plus: ^0.0.10
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#111B21"
+  android: true
+  ios: true
+  web: false
+  image: "assets/splash_light.png"
+  image_dark: "assets/splash_dark.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - "assets/zr-bez-tla.png"
+    - "assets/pies1.jpg"
+    - "assets/pies2.jpg"
+    - "assets/pies3.jpg"
+    - "assets/pies4.png"
+    - "assets/pies5.jpg"
+    - "assets/psy1.png"
+    - "assets/psy2.jpg"
+    - "assets/szczeniak1.png"
+    - "assets/kastrujemy.jpg"
+    - "assets/lapa1.png"
+    - "assets/lapa2.png"
+    - "assets/lapa3.png"
+    - "assets/lapa4.png"
+    - "assets/lapa5.png"
+    - "assets/lapa6.png"
+    - "assets/kot-linia.png"
+    - "assets/kot-pies3.png"
+    - "assets/warning.png"
+    - "assets/facebook.png"
+
